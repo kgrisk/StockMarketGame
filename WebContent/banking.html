@@ -1,0 +1,47 @@
+<html>
+<title>CE303 Jersey Banking Example</title>
+</head>
+
+<body>
+	<h3>CE303 Jersey Banking Examples</H3>
+
+	<h3>Banking</h3>
+
+	<p><a href="/examples/rest/bank/customer/cust1">Customer (cust1) accounts</a></p>
+
+	<p><a href="/examples/rest/bank/customer/cust1/105">Account (105) balance</a></p>
+
+	<p><a href="/examples/rest/bank/customer/cust1/999">Account balance (999) (invalid
+	account number, server returns <strong>null</strong>)</a></p>
+
+	<h4>Transfer</h4>
+	
+		<form action="/examples/rest/bank/transfer" method="POST"> 
+			<table>
+				<tr>
+					<td>CustomerId:</td>
+					<td><input type="text" name="customerId" value="cust0"/></td>
+				</tr>
+				<tr>
+					<td>From account:</td>
+					<td><input type="number" name="fromAccount" value="101"/></td>
+				</tr>
+				<tr>
+					<td>To account:</td>
+					<td><input type="number" name="toAccount" value="105"/></td>
+				</tr>
+				<tr>
+					<td>Amount:</td>
+					<td><input type="number" name="amount"/></td>
+				</tr>
+			</table>
+			<input type="submit" value="Submit"/>
+		</form>
+
+<hr> 
+<p>Back to other <a href="./index.html">Jersey examples</a>. 
+</p>
+
+</body>
+
+</html>
