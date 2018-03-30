@@ -1,14 +1,14 @@
 # StockMarketGame
 A simple stock market game
 
-#Instructions
+# Instructions
 1. In webserver folder play tomcatserver class. 
 
 2. In socketWork floder play gameService class.
 
 3. Turn on Putty. Put localhost as host name. Use Raw server connection type. Put 8888 as port number. Now you can click open and the game will start open. 
 
-#User interface 
+# User interface 
 
 The game involves five stocks: Apple, BP, Cisco, Dell and Ericsson
 
